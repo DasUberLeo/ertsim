@@ -1,0 +1,20 @@
+{
+    "shield": {
+        "cloud_id": "My_deployment:dXMtY2VudHJhbDEuZ2NwLmNsb3VkLmVzLmlvJDRhYmYzNzJmYmNlZDQzZTBhNjA2OWM5YWU0ZDRhNWM0JGY3ODZkYTc3NTE2MTRiMzE5NmU1ZTMzMDg0YjllZjkw",
+        "username": "elastic",
+        "password": "8TmXNtG4IBvntPqq2cFAcssR",
+        "data_streams": {
+            "superhero": {
+                "mappings": {
+                    "properties": {
+                        "entity_name": {"type": "keyword" },
+                        "legal_name": { "type": "search_as_you_type" },
+                        "superhero_name": { "type": "search_as_you_type" },
+                        "image_url": { "type": "keyword" },
+                        "location": { "type": "geo_point" }
+                    }
+                }
+            }
+        }
+    }
+}
